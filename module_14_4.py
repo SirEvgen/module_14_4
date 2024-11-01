@@ -28,10 +28,7 @@ kb.insert(button_info)
 kb.add(button_buy)
 kb2.insert(button1)
 kb2.insert(button2)
-"""В задании на скрине инлайн кнопки шли в ряд, но у меня столбцом, я подумал так будет лучше,
-можно было бы для каждой кнопки отдельную переменную создать, но в лекции как раз учили всё
-в одной делать.
-Надеюсь оценка не снизится =)"""
+
 products_data = get_all_products()
 class UserState(StatesGroup):
     age = State()
